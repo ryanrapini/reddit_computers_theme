@@ -1,0 +1,35 @@
+ /* === CUSTOM STYLES ===
+
+    Put custom styles down here from addon.css. Do not edit anything above this.
+
+*/
+
+/* Tiled circuit board header */
+#header {
+    background: url(%%headerimg%%);
+    background-size: 350px 350px;
+    background-repeat: both;
+}
+
+.footer-parent {
+    background: url(%%headerimg%%);
+    background-size: 350px 350px;
+    background-repeat: both;
+}
+
+/* Addon: Custom Colors */
+/* Buttons */
+.morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
+.submit_text.enabled.roundfield, body .btn, body button, .content .infobar {
+    background-color: #14682E;
+}
+
+    .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {
+        background-color: #26BD6B;
+    }
+
+    .morelink:active, .side .titlebox .md h3 a:active, .btn:active, body button:active {
+        background-color: #0C3D1A;
+    }
+
+/* End Addon */
