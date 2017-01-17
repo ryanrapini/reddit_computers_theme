@@ -1,0 +1,265 @@
+/* Service Theme (Latte)
+from the BS9K set
+http://www.reddit.com/r/bs9k/comments/raeiq/the_bs9k_custom_theme_set/ */
+
+a { color: #724c25; }
+.usertext-body a {font-weight:600;}
+.drop-choices a.choice:hover { background-color:#E5DEC7; }
+.dropdown.tabdrop .selected { border:1px solid #647464; }
+.dropdown.tabdrop .selected.title {
+    background-color:#FFF7E6;
+    color:#724c25;
+}
+.comment .expand:hover { background-color:#d3d1c6; }
+.comment .child { border-left-color: #d3d1c6; }
+.commentbody.border { background-color:#EEEAB6;}
+.commentbody.grayed { background-color:#E0E0E0; }
+.deepthread a { color: #724c25}
+.flairselector h2 { background: #A6A38C; }
+.formtabs-content { border-top-color: #6E7164; }
+h2 { color:#724c25; }
+h2 a:visited { color:#724c25; }
+#header {
+    border-bottom-color:#6E7164;
+    background-color:#A6A38C;
+
+}
+#header-bottom-left {
+    padding-top: 15px
+}
+#header-bottom-right {
+   background-color:#DAD4BF;
+}  
+.infobar {
+    background-color: #CED0D9;
+    border-color: #52556A;
+}
+.infotext { 
+    border-color: #724c25;
+    background-color:#DAD4BF;
+}
+input.txt { border-color: #724c25; }
+.linefield { background-color: #A6A38C; }
+.linefield .title { color: #724c25; }
+.link .usertext .md { border-color: #724c25; }
+.linkinfo .md{
+    border-color: #647464;
+    background-color:#FFF7E6;
+}
+.media-button .option.active { color: #724c25; }
+.min-body .content { border-right-color: #724c25; }
+.morecomments a { color:#724c25}
+.morelink { 
+    background: -webkit-linear-gradient(white, #b9a693);
+    background: -moz-linear-gradient(white, #b9a693);
+    background: -ms-linear-gradient(white, #b9a693);
+    background: -o-linear-gradient(white, #b9a693);
+    background: linear-gradient(white, #b9a693);
+    border-color: #E5DEC7;
+    -moz-border-radius-topright:6px;
+    -moz-border-radius-bottomright:6px;
+}
+.morelink:hover, .mlh {
+    background: -webkit-linear-gradient(#724c25, #392613);
+    background: -moz-linear-gradient(#724c25, #392613);
+    background: -ms-linear-gradient(#724c25, #392613);
+    background: -o-linear-gradient(#724c25, #392613);
+    background: linear-gradient(#724c25, #392613);
+    border-color:#b49c87;
+}
+.morelink a { color:#724c25; }
+.morelink .nub {
+    visibility: hidden;
+}
+.roundfield { background-color: #A6A38C; }
+#searchmenu .searchlabel { color: #724c25}
+.srdrop .choice.top-option { border-bottom-color: #724c25; }
+.srdrop .choice.bottom-option { border-top-color: #724c25;}
+#sr-header-area {
+    background-color:#E5DEC7;
+    border-bottom-color: black;
+}
+#sr-more-link {
+     color:black;
+     background-color:#E5DEC7;
+}
+.sr-name-row.sr-selected { background-color:#724c25; }
+.sr-row.sr-selected { background-color:#EEEAB6; }
+.stats a { color:#724c25; }
+.tabmenu li a { background-color:#FFF7E6; }
+.tabmenu li.selected a {
+    border-color: #647464;
+    border-bottom-color: white}
+.tabmenu.formtab .selected a { background-color:#6E7164; }
+.tabpane-content { border-color:#647464 }
+.tagline a {color:#724c25;}
+.tagline .submitter { color:#724c25; }
+.thing .title { color: #724c25 !important; }
+.thing .title:visited { color:#551a8b !important; }
+.thing .title.click { color:#551a8b !important; } 
+.thing .title.loggedin { color: #724c25 !important; }
+.thing .title.loggedin:visited { color:#551a8b !important; }
+.thing .title.loggedin.click { color:#551a8b !important; } 
+.thing .title.loggedin.click:visited { color:#551a8b !important; }
+.titlebox a[href="http://www.reddit.com/r/bs9k/comments/raeiq/the_bs9k_custom_theme_set/"] {
+    color: black !important;
+}
+.titlebox a[href="http://www.reddit.com/r/bs9k/comments/raeiq/the_bs9k_custom_theme_set/"]:after {
+    content: "Latte";
+    font-variant: small-caps;
+}
+.toolbar {
+     border-bottom-color: #724c25;
+     background-color:#A6A38C;
+}
+.toolbar .left-side {
+     border-right-color: #724c25;
+     background-color:#DAD4BF;
+}
+.toolbar .middle-side { background-color:#DAD4BF; }
+.toolbar .right-side { background-color:#DAD4BF; }
+.toolbar a, .toolbar b { border-left-color: #724c25; }
+.toolbar a, .toolbar .clickable {color: #724c25; }
+.toolbar .clickable:active, .pushed-button { background-color:#A6A38C !important;}
+.toolbar-status-bar {
+        border-top-color: #724c25;
+        border-bottom-color: #724c25;
+        background-color:#F6E69F;
+}
+.usertext.border .usertext-body { background-color:#EEEAB6;}
+.titlebox .md{
+    padding: 5px !important;
+    background-color:#FFF7E6 !important;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #800000;
+}
+.titlebox .bottom {
+margin-top: 4px;
+}
+.titlebox table, .titlebox td, .titlebox tr, .titlebox th{
+border-color: #999;
+}
+
+.flair {
+border: none !important;
+top:20px;
+padding:0px;
+display:inline-block;
+}
+
+.flair:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(%%spritesheet%%);
+    vertical-align: middle;
+    }
+
+.flair-arch:before{ background-position: 0 0; width: 14px; height: 14px; } 
+.flair-deb:before{ background-position: -18px 0; width: 14px; height: 14px; } 
+.flair-fed:before{ background-position: -36px 0; width: 14px; height: 14px; } 
+.flair-lin:before{ background-position: -54px 0; width: 14px; height: 14px; } 
+.flair-mac:before{ background-position: -72px 0; width: 14px; height: 14px; } 
+.flair-macb:before{ background-position: -90px 0; width: 14px; height: 14px; } 
+.flair-ubn:before{ background-position: -108px 0; width: 14px; height: 14px; } 
+.flair-win:before{ background-position: -126px 0; width: 14px; height: 14px; } 
+.flair-winv:before{ background-position: -144px 0; width: 14px; height: 14px; } 
+.flair-xp:before{ background-position: -162px 0; width: 14px; height: 14px; } 
+
+/********************* Thread resolved **********************/
+/*
+div.link.linkflair-resolved p.title, div.link.linkflair-resolved p.tagline{
+    filter: alpha(opacity=50);
+    opacity: 0.50
+}*/
+
+div.link.linkflair-resolved ul.flat-list.buttons a{
+    color: #AAA !important;
+}
+
+div.linkflair-resolved a.thumbnail{
+    background: url(%%done%%) #ffffff no-repeat left top;
+    height: 50px;
+}
+
+
+
+/*Announcement Banner aka Giant Hat*/
+.pagename {
+    font-size: 12pt
+}
+ 
+.titlebox form {
+    position: static
+}
+ 
+.titlebox .usertext-body .md ol {
+    width: auto;
+    background: no-repeat scroll 5px 5px #CED0D9;
+    border: 1px solid #6E7164;
+    position: absolute;
+    top: 6px;
+    left: 123px; /*123*/
+    z-index: 50;
+    margin: 20px 0px 0 0;
+    padding: 6px;
+    list-style: none;
+    display: block;
+    white-space: normal;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 1000;
+}
+
+.titlebox .usertext-body .md blockquote {
+    font-size: large;
+    border: none;
+}
+
+#link-desc::before, #text-desc::before{
+   text-align: center;
+   display: block;
+   content: "READING THE SIDEBAR MEANS NEVER HAVING TO SAY 'SORRY IF THIS IS THE WRONG PLACE FOR THIS'";
+   font-size: large;
+   color: DarkRed;
+   margin-bottom: 10px;
+   height: 70px;
+   background-image: url(%%rightarrow%%) ;
+   background-repeat: repeat-x;
+   background-position: left bottom;
+}
+
+#link-desc::after {
+   display: block;
+   content: "You are submitting a link. While this is perfectly acceptable, please bear in mind that linkposts are much more likely to be eaten by the spamfilter. If it looks spammy, consider whether it really needs to be posted, or if a self-post would suffice. This is not the place to advertise your product or service. Please keep all link titles as descriptive as possible, avoid cliche titles like 'I'll just leave this here' which tell us nothing about the content of the post. Please post your memes elsewhere. Blogspam is frowned upon, you know who you are.";
+   font-size: small;
+}
+
+#text-desc::after {
+   display: block;
+   content: "You are submitting a self post. Please keep all self posts as descriptive as possible. Do your best to put a relevant summary in the post title. Titling your post 'Please help!' or 'Hey reddit, I have a question' tells us NOTHING about your question and will mean you have less of a chance of getting help. Make sure to give us as much information as possible in your actual post. We are not mind readers, the more information you give us, the more likely we will be able to help! Also, Please do not ask about piracy related topics like 'Where can I find a download for X' or 'I pirated this game how do I get it to work now.'";
+   font-size: small;
+}
+
+#text-desc {
+   font-size: 0pt;
+} 
+
+#link-desc {
+   font-size: 0pt;
+} 
+
+p {
+   line-height: 135%;
+}
+
+/* Hide AutoModerator footer, by /u/psdtwk, inspired by /u/Dropping_fruits */
+/* Code updates and discussion: http://redd.it/36jr6v */
+
+.comment .md h5+h6+h4+p,.comment .md h5+h6+h4+p+hr,.comment .md h5+h6+h4+p+hr+blockquote,.comment .md h5+h6+h4+p+hr+blockquote+hr,.comment .md h5+h6+h4+p+hr+blockquote+hr+p,.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: none;
+}
+

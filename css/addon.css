@@ -1,35 +1,66 @@
- /* === CUSTOM STYLES ===
+/* 
+=== CUSTOM STYLES ===
 
-    Put custom styles down here from addon.css. Do not edit anything above this.
+Put custom styles here. Do not edit the main style above.
 
+=====================
 */
 
 /* Tiled circuit board header */
 #header {
-    background: url(%%headerimg%%);
-    background-size: 350px 350px;
-    background-repeat: both;
+background: url(%%headerimg%%);
+background-size: 350px 350px;
+background-repeat: both;
 }
 
 .footer-parent {
-    background: url(%%headerimg%%);
-    background-size: 350px 350px;
-    background-repeat: both;
+background: url(%%headerimg%%);
+background-size: 350px 350px;
+background-repeat: both;
 }
 
 /* Addon: Custom Colors */
 /* Buttons */
 .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
 .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {
-    background-color: #14682E;
+background-color: #14682E;
 }
 
-    .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {
-        background-color: #26BD6B;
-    }
+.morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {
+background-color: #26BD6B;
+}
 
-    .morelink:active, .side .titlebox .md h3 a:active, .btn:active, body button:active {
-        background-color: #0C3D1A;
-    }
+.morelink:active, .side .titlebox .md h3 a:active, .btn:active, body button:active {
+background-color: #0C3D1A;
+}
 
 /* End Addon */
+
+/* make the top menus easier to read. TODO: better solution for this */
+#header .tabmenu:before {
+background: rgba(0,0,0,0.5);
+}
+
+#sr-header-area {
+background: rgba(0,0,0,0.5);
+}
+
+/* Submit page tweaks - make the page wider */
+.submit-page #header-bottom-left {
+margin-left: -412px;
+}
+
+.submit-page #newlink.submit.content, .submit-page .roundfield {
+width: 824px;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab a {
+width:412px;
+}
+
+.roundfield textarea, .roundfield input[type="text"], .roundfield input[type="url"], #compose-message .roundfield select {
+width: 792px;
+}
+
+/* Fixing flair too close to the end of the post text */
+.linkflairlabel { margin-left: 10px; }
